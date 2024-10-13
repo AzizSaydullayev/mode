@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in_crease</title>
+</head>
+<body>
+    <style>
+        body {
+            transition: background-color 0.3s, color 0.3s;
+            background-color: #C4B5A5;
+            color: black;
+        }
+        body.dark-mode {
+            background-color: black;
+            color: white;
+        }
+        .toggle {
+            padding: 10px 25px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        body.dark-mode .toggle {
+            background-color: #FB982F;
+            color: black;
+            border: none;
+        }
+    </style>
+    <nav>
+    <div class="row">
+    <h1 class="x1">LOGO</h1>
+    </div>
+    <div class="row-2">
+    <h3 id="x2">Home</h3>
+    <h3 id="x3">About us</h3>
+    <h3 id="x4">Portfolio</h3>
+    <button class="toggle" id="theme-toggle">Mode</button>
+    </div>
+    </nav>
+    <header>
+    <div class="box">
+    <h1 id="x5">Work that we produce for our clients</h1>
+    <h3 id="x6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</h3>
+    <button id="b1">Get more details</button>
+   </div>
+    <div class="box-2">
+    <img src="./images/Rectangle 24.svg" alt="logo">
+    </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
